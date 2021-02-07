@@ -14,17 +14,17 @@ Antes de começarmos o projeto é muito importante lembrarmos de instalar a plac
 
 ## Topologia e os primeiros passos a serem tomados
 
-Após a instalação da placa de expansão hwic-2t temos uma topologia conforme a imagem abaixo com os roteadores sem as suas respectivas conexões.
+Após a instalação da placa de expansão hwic-2t temos uma topologia conforme a imagem abaixo com os roteadores sem as suas respectivas conexões:
 
 ![Alt Text](https://i.ibb.co/nRqY2Yq/imagem-2021-02-07-173953.png)
 
-Primeiramente precisamos fazer a conexão das portas seriais dos nossos roteadores, fazendo um junção em formato de um triangulo entre os 3 roteadores.
+Primeiramente precisamos fazer a conexão das portas seriais dos nossos roteadores, fazendo um junção em formato de um triangulo entre os 3 roteadores:
 
 ![Alt Text](https://i.ibb.co/QNqSSVw/imagem-2021-02-07-174425.png)
 
 ## Configuração dos roteadores
 
-Feita todas as instalações dos cabos, partiremos para as configurações do roteadores.
+Feita todas as instalações dos cabos, partiremos para as configurações do roteadores:
 
 ### Roteador-1
 
@@ -69,7 +69,7 @@ Para as interfaces seriais:
 
 ![Alt Text](https://i.ibb.co/WDW0rp7/imagem-2021-02-07-180040.png)
 
-O roteador 3 também é e sem segredo fazemos as mesmas configurações dos roteadores acima, mudando sempre o ip para sua respectiva rede. Segue abaixo o comandos para a int g0/0:
+O roteador 3 também é sem segredo, fazemos as mesmas configurações dos roteadores acima, mudando sempre o ip para sua respectiva rede. Segue abaixo o comandos para a int g0/0:
 
 * int g0/0
 * ip add 10.0.0.1 255.0.0.0
@@ -138,7 +138,7 @@ ip route 172.16.0.0 255.255.0.0 190.140.1.1
 ip route 190.140.0.0 255.255.255.252 190.140.2.1
 ip route 190.140.0.0 255.255.255.252 190.140.1.1
 
-## Roteamento dinâmico e como funciona
+## Roteamento dinâmico e sua função
 
 Feito todas as rotas a rede já está totalmente funcional e utilizando todas suas rotas possiveis para o envio de dados entre as redes. O ponto é existe uma forma mais fácil de fazer todas essas rotas sem ser pelo roteamento estático ? Sim, existe e é chamado de roteamento dinâmico. Como visto, no roteamento estático as informações que um roteador precisa saber para poder encaminhar seus dados corretamente aos seus destinos são colocadas manualmente na tabela de rotas, igual fizemos nos comandos acimas.
 Diferentemente, no roteamento dinâmico, os roteadores podem descobrir estas informações automaticamente e compartilhá-la com outros roteadores via protocolos de roteamento dinâmico.
