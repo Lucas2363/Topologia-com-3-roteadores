@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-O objetivo deste projeto foi criar todas as rotas possiveis que nossos pacotes de dados poderiam utilizar e assim criando um ambiente redundante e a prova de falhas usando roteamento estático.
+O objetivo deste projeto foi criar todas as rotas possiveis que nossos pacotes de dados poderiam utilizar e assim criando um ambiente redundante e a prova de falhas usando o roteamento estático.
 
 ![Alt Text](https://i.ibb.co/0yHM2LY/54-Topologia-com-3-Roteadores.png)
 
