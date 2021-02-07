@@ -8,7 +8,7 @@ O objetivo deste projeto foi criar todas as rotas possiveis que nossos pacotes d
 
 ## Instalações necessárias
 
-Antes de começarmos o projeto é muito importante lembrarmos de instalar a placa de expansão hwic-2t no nosso roteador cisco, pois com ela utilizamos as portas serial para roteamento de longa distancia. Segue abaixo uma foto da placa de expansão:
+Antes de começarmos o projeto é muito importante lembrarmos de instalar a placa de expansão hwic-2t no nosso roteador cisco, pois com ela utilizamos a porta serial para roteamento de longa distancia. Segue abaixo uma foto da placa de expansão:
 
 ![Alt Text](https://images-na.ssl-images-amazon.com/images/I/61rxXusQxxL._AC_SL1301_.jpg)
 
