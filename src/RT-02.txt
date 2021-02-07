@@ -1,0 +1,27 @@
+en
+conf t
+hostname RT-02
+int g0/0
+ip add 172.16.0.1 255.255.0.0
+no shutdown
+int s0/0/0
+ip add 190.140.0.2 255.255.255.252
+no shutdown
+int s0/0/1
+ip add 190.140.2.1 255.255.255.252
+no shutdown
+ex
+!ROTAs PARA A REDE 1
+ip route 192.168.0.0 255.255.255.0 190.140.0.1
+ip route 192.168.0.0 255.255.255.0 190.140.2.2
+
+!ROTAs PARA A REDE 3
+ip route 10.0.0.0 255.0.0.0 190.140.2.2
+ip route 10.0.0.0 255.0.0.0 190.140.0.1
+
+!ROTAs PARA REDE WAN 2
+ip route 190.140.1.0 255.255.255.252 190.140.2.2
+ip route 190.140.1.0 255.255.255.252 190.140.0.1
+
+ex
+wr
