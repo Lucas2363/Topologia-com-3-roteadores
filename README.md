@@ -127,16 +127,16 @@ Para roteador 2 também criaremos 6 rotas:
 No roteador de número 3 será utilizado o mesmo número de rotas:
 
 #### Rotas para a rede 1
-ip route 192.168.0.0 255.255.255.0 190.140.1.1
-ip route 192.168.0.0 255.255.255.0 190.140.2.1
+* ip route 192.168.0.0 255.255.255.0 190.140.1.1
+* ip route 192.168.0.0 255.255.255.0 190.140.2.1
 
 #### Rotas para a rede 2
-ip route 172.16.0.0 255.255.0.0 190.140.2.1
-ip route 172.16.0.0 255.255.0.0 190.140.1.1
+* ip route 172.16.0.0 255.255.0.0 190.140.2.1
+* ip route 172.16.0.0 255.255.0.0 190.140.1.1
 
 #### Rotas para a rede WAN 1
-ip route 190.140.0.0 255.255.255.252 190.140.2.1
-ip route 190.140.0.0 255.255.255.252 190.140.1.1
+* ip route 190.140.0.0 255.255.255.252 190.140.2.1
+* ip route 190.140.0.0 255.255.255.252 190.140.1.1
 
 ## Roteamento dinâmico e sua função
 
