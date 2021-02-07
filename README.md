@@ -148,8 +148,8 @@ Diferente, no roteamento dinâmico, os roteadores podem descobrir estas informa�
 Ou seja, poderíamos muito bem utilizar o protocolo de roteamento dinâmico nos roteadores, isso nos pouparia tempo e seria mais prático, mas o objetivo principal do projeto é entender como funciona cada rota; não vale de nada utilizar o roteamento dinâmico sem saber exatamente o que ele está fazendo. Por isso, criamos manualmente as rotas para entendermos como o roteamento dinâmico irá funcionar e como ele formula cada rota para a respectiva rede.
 
 
-Autor: Lucas Silva Conrado
-Revisão: Sasha Sanches
+* Autor: Lucas Silva Conrado
+* Revisão: Sasha Sanches
 
 
 
